@@ -3,7 +3,7 @@ package com.sshustoff.ktsqlite.parsing
 import com.sshustoff.ktsqlite.Column
 import com.sshustoff.ktsqlite.ColumnNullability
 import com.sshustoff.ktsqlite.ColumnType
-import java.lang.IllegalStateException
+import kotlin.jvm.JvmName
 
 class ConvertContext(private val parser: SqlResultParser) {
 

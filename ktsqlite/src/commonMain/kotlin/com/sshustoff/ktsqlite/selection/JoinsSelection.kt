@@ -6,6 +6,7 @@ import com.sshustoff.ktsqlite.predicates.core.Predicate
 import com.sshustoff.ktsqlite.selection.interfaces.CanConvertToGroupeableSelection
 import com.sshustoff.ktsqlite.selection.interfaces.CanConvertToSelectable
 import com.sshustoff.ktsqlite.selection.tuples.Tables
+import kotlin.jvm.JvmName
 
 class JoinsSelection<TablesRepresentation : Tables> internal constructor(
     val tables: TablesRepresentation,

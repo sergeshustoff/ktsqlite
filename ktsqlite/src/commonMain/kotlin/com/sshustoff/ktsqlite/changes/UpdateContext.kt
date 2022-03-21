@@ -4,6 +4,7 @@ import com.sshustoff.ktsqlite.Column
 import com.sshustoff.ktsqlite.ColumnNullability
 import com.sshustoff.ktsqlite.ColumnType
 import com.sshustoff.ktsqlite.statement.StatementWithArgumentsBuilder
+import kotlin.jvm.JvmName
 
 class UpdateContext(private val builder: StatementWithArgumentsBuilder) {
 

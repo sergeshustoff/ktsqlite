@@ -4,6 +4,7 @@ import com.sshustoff.ktsqlite.predicates.core.CanConvertToPieceOfPredicate
 import com.sshustoff.ktsqlite.predicates.core.PieceOfPredicate
 import com.sshustoff.ktsqlite.predicates.core.Predicate
 import com.sshustoff.ktsqlite.statement.StatementWithArgumentsBuilder
+import kotlin.jvm.JvmName
 
 class NotInPredicate(
     val left: PieceOfPredicate,

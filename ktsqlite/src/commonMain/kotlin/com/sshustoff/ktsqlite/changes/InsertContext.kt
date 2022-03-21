@@ -3,6 +3,7 @@ package com.sshustoff.ktsqlite.changes
 import com.sshustoff.ktsqlite.Column
 import com.sshustoff.ktsqlite.ColumnNullability
 import com.sshustoff.ktsqlite.ColumnType
+import kotlin.jvm.JvmName
 
 class InsertContext {
 
