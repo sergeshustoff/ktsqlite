@@ -1,5 +1,6 @@
 plugins {
     id("com.android.library")
+    id("org.jetbrains.kotlin.android")
     id("maven-publish")
 }
 
@@ -31,4 +32,5 @@ publishing {
 
 dependencies {
     api(project(":ktsqlite"))
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.0")
 }
